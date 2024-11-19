@@ -1,0 +1,134 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #f2c500;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    height: 50px;
+}
+
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.contact {
+    text-align: right;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f2c500;
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.hero h1 span {
+    color: #ff0000;
+}
+
+.hero .order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* Menu Section */
+.menu {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.menu h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-item {
+    text-align: center;
+    width: 30%;
+}
+
+.menu-item h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+/* Events Section */
+.events {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.event-gallery img {
+    width: 30%;
+    margin: 10px;
+}
+
+/* Reservation Section */
+.reservation {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.reservation form input,
+.reservation form button {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .logo {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.footer address,
+.footer .social-media {
+    margin-top: 15px;
+}
+
+.social-media a img {
+    width: 24px;
+    margin: 0 5px;
+}
